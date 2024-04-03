@@ -137,7 +137,7 @@ class InstMediaDownloader extends FileDownloader {
     }
 
     if (i + this.#limit < this.mediaArray.length - 1) {
-      setTimeout(() => this.#loopMedia(i, this.#limit), 3000);
+      setTimeout(() => this.#loopMedia(i), 3000);
     }
   }
 
